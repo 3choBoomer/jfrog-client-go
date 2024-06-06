@@ -1,9 +1,9 @@
 package tests
 
 import (
-	"github.com/jfrog/jfrog-client-go/access/services"
-	"github.com/jfrog/jfrog-client-go/auth"
-	"github.com/jfrog/jfrog-client-go/utils"
+	"github.com/3choboomer/jfrog-client-go/access/services"
+	"github.com/3choboomer/jfrog-client-go/auth"
+	"github.com/3choboomer/jfrog-client-go/utils"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

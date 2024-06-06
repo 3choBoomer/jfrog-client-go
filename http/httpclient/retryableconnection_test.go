@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/io/httputils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
-	"github.com/jfrog/jfrog-client-go/utils/tests"
+	"github.com/3choboomer/jfrog-client-go/utils/errorutils"
+	"github.com/3choboomer/jfrog-client-go/utils/io/httputils"
+	"github.com/3choboomer/jfrog-client-go/utils/log"
+	"github.com/3choboomer/jfrog-client-go/utils/tests"
 )
 
 const SuccessResponse = "successful response"

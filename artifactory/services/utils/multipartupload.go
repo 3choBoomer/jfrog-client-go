@@ -13,15 +13,15 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/3choboomer/jfrog-client-go/auth"
+	"github.com/3choboomer/jfrog-client-go/http/jfroghttpclient"
+	"github.com/3choboomer/jfrog-client-go/utils"
+	"github.com/3choboomer/jfrog-client-go/utils/errorutils"
+	ioutils "github.com/3choboomer/jfrog-client-go/utils/io"
+	"github.com/3choboomer/jfrog-client-go/utils/io/httputils"
+	"github.com/3choboomer/jfrog-client-go/utils/log"
 	biUtils "github.com/jfrog/build-info-go/utils"
 	"github.com/jfrog/gofrog/parallel"
-	"github.com/jfrog/jfrog-client-go/auth"
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
-	"github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	ioutils "github.com/jfrog/jfrog-client-go/utils/io"
-	"github.com/jfrog/jfrog-client-go/utils/io/httputils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
 )
 
 type supportedStatus int

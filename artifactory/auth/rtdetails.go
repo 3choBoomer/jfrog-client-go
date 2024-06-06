@@ -1,10 +1,10 @@
 package auth
 
 import (
-	"github.com/jfrog/jfrog-client-go/artifactory"
-	"github.com/jfrog/jfrog-client-go/auth"
-	"github.com/jfrog/jfrog-client-go/config"
-	"github.com/jfrog/jfrog-client-go/utils/log"
+	"github.com/3choboomer/jfrog-client-go/artifactory"
+	"github.com/3choboomer/jfrog-client-go/auth"
+	"github.com/3choboomer/jfrog-client-go/config"
+	"github.com/3choboomer/jfrog-client-go/utils/log"
 )
 
 func NewArtifactoryDetails() auth.ServiceDetails {

@@ -7,11 +7,11 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/3choboomer/jfrog-client-go/utils"
+	"github.com/3choboomer/jfrog-client-go/utils/errorutils"
+	"github.com/3choboomer/jfrog-client-go/utils/io/fileutils"
+	"github.com/3choboomer/jfrog-client-go/utils/log"
 	biutils "github.com/jfrog/build-info-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
 )
 
 // Return all the existing paths of the provided root path

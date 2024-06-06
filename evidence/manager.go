@@ -1,9 +1,9 @@
 package evidence
 
 import (
-	"github.com/jfrog/jfrog-client-go/config"
-	"github.com/jfrog/jfrog-client-go/evidence/services"
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
+	"github.com/3choboomer/jfrog-client-go/config"
+	"github.com/3choboomer/jfrog-client-go/evidence/services"
+	"github.com/3choboomer/jfrog-client-go/http/jfroghttpclient"
 )
 
 type EvidenceServicesManager struct {

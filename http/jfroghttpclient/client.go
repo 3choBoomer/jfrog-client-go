@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/jfrog/jfrog-client-go/http/httpclient"
-	ioutils "github.com/jfrog/jfrog-client-go/utils/io"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
-	"github.com/jfrog/jfrog-client-go/utils/io/httputils"
+	"github.com/3choboomer/jfrog-client-go/http/httpclient"
+	ioutils "github.com/3choboomer/jfrog-client-go/utils/io"
+	"github.com/3choboomer/jfrog-client-go/utils/io/fileutils"
+	"github.com/3choboomer/jfrog-client-go/utils/io/httputils"
 )
 
 type JfrogHttpClient struct {

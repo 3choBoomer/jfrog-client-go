@@ -2,10 +2,10 @@ package tests
 
 import (
 	"encoding/json"
-	accessAuth "github.com/jfrog/jfrog-client-go/access/auth"
-	"github.com/jfrog/jfrog-client-go/access/services"
-	"github.com/jfrog/jfrog-client-go/auth"
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
+	accessAuth "github.com/3choboomer/jfrog-client-go/access/auth"
+	"github.com/3choboomer/jfrog-client-go/access/services"
+	"github.com/3choboomer/jfrog-client-go/auth"
+	"github.com/3choboomer/jfrog-client-go/http/jfroghttpclient"
 	"github.com/stretchr/testify/assert"
 	"io"
 	"net/http"

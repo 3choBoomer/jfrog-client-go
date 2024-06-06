@@ -8,8 +8,8 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
+	"github.com/3choboomer/jfrog-client-go/utils"
+	"github.com/3choboomer/jfrog-client-go/utils/errorutils"
 )
 
 const spaceEncoding = "%20"

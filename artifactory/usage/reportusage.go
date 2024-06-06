@@ -5,11 +5,11 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/jfrog/jfrog-client-go/artifactory"
-	"github.com/jfrog/jfrog-client-go/artifactory/services/utils"
-	clientutils "github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/io/httputils"
+	"github.com/3choboomer/jfrog-client-go/artifactory"
+	"github.com/3choboomer/jfrog-client-go/artifactory/services/utils"
+	clientutils "github.com/3choboomer/jfrog-client-go/utils"
+	"github.com/3choboomer/jfrog-client-go/utils/errorutils"
+	"github.com/3choboomer/jfrog-client-go/utils/io/httputils"
 )
 
 const minArtifactoryVersion = "6.9.0"

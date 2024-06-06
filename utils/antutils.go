@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/3choboomer/jfrog-client-go/utils/io"
 	"github.com/jfrog/gofrog/stringutils"
-	"github.com/jfrog/jfrog-client-go/utils/io"
 )
 
 var (

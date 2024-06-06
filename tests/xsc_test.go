@@ -1,7 +1,7 @@
 package tests
 
 import (
-	clientUtils "github.com/jfrog/jfrog-client-go/utils"
+	clientUtils "github.com/3choboomer/jfrog-client-go/utils"
 	"testing"
 )
 

@@ -8,9 +8,9 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/jfrog/jfrog-client-go/http/httpclient"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
+	"github.com/3choboomer/jfrog-client-go/http/httpclient"
+	"github.com/3choboomer/jfrog-client-go/utils/errorutils"
+	"github.com/3choboomer/jfrog-client-go/utils/log"
 )
 
 const (

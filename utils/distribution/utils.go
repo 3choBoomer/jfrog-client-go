@@ -1,8 +1,8 @@
 package distribution
 
 import (
+	"github.com/3choboomer/jfrog-client-go/artifactory/services/utils"
 	"github.com/jfrog/gofrog/stringutils"
-	"github.com/jfrog/jfrog-client-go/artifactory/services/utils"
 	"regexp"
 )
 

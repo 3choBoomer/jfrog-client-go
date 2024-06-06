@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/jfrog/jfrog-client-go/utils"
+	"github.com/3choboomer/jfrog-client-go/utils"
 	"github.com/stretchr/testify/assert"
 )
 

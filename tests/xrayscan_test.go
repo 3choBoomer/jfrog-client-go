@@ -1,16 +1,16 @@
 package tests
 
 import (
-	"github.com/jfrog/jfrog-client-go/auth"
+	"github.com/3choboomer/jfrog-client-go/auth"
 	"github.com/stretchr/testify/assert"
 	"strconv"
 	"strings"
 	"testing"
 
-	"github.com/jfrog/jfrog-client-go/artifactory/services"
-	"github.com/jfrog/jfrog-client-go/artifactory/services/utils/tests/xray"
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
-	xrayServices "github.com/jfrog/jfrog-client-go/xray/services"
+	"github.com/3choboomer/jfrog-client-go/artifactory/services"
+	"github.com/3choboomer/jfrog-client-go/artifactory/services/utils/tests/xray"
+	"github.com/3choboomer/jfrog-client-go/http/jfroghttpclient"
+	xrayServices "github.com/3choboomer/jfrog-client-go/xray/services"
 )
 
 var testsXrayScanService *services.XrayScanService

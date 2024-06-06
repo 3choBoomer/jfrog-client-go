@@ -12,9 +12,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/3choboomer/jfrog-client-go/utils/io/fileutils"
+	"github.com/3choboomer/jfrog-client-go/utils/log"
 	biutils "github.com/jfrog/build-info-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
 	"github.com/stretchr/testify/assert"
 )
 

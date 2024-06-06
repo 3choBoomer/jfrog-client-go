@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jfrog/jfrog-client-go/artifactory/services"
-	servicesutils "github.com/jfrog/jfrog-client-go/artifactory/services/utils"
-	"github.com/jfrog/jfrog-client-go/utils"
+	"github.com/3choboomer/jfrog-client-go/artifactory/services"
+	servicesutils "github.com/3choboomer/jfrog-client-go/artifactory/services/utils"
+	"github.com/3choboomer/jfrog-client-go/utils"
 	"github.com/stretchr/testify/assert"
 )
 

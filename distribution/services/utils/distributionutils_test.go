@@ -3,7 +3,7 @@ package utils
 import (
 	"testing"
 
-	"github.com/jfrog/jfrog-client-go/artifactory/services/utils"
+	"github.com/3choboomer/jfrog-client-go/artifactory/services/utils"
 	"github.com/stretchr/testify/assert"
 )
 

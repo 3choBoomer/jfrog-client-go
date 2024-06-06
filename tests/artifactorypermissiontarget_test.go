@@ -3,10 +3,10 @@ package tests
 import (
 	"crypto/rand"
 	"fmt"
-	"github.com/jfrog/jfrog-client-go/utils"
+	"github.com/3choboomer/jfrog-client-go/utils"
 	"testing"
 
-	"github.com/jfrog/jfrog-client-go/artifactory/services"
+	"github.com/3choboomer/jfrog-client-go/artifactory/services"
 
 	"github.com/stretchr/testify/assert"
 )

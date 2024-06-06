@@ -13,19 +13,19 @@ import (
 
 	"github.com/jfrog/build-info-go/entities"
 
-	"github.com/jfrog/jfrog-client-go/http/httpclient"
+	"github.com/3choboomer/jfrog-client-go/http/httpclient"
 
+	"github.com/3choboomer/jfrog-client-go/artifactory/services/utils"
+	"github.com/3choboomer/jfrog-client-go/auth"
 	"github.com/jfrog/gofrog/parallel"
-	"github.com/jfrog/jfrog-client-go/artifactory/services/utils"
-	"github.com/jfrog/jfrog-client-go/auth"
 
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
-	clientutils "github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	clientio "github.com/jfrog/jfrog-client-go/utils/io"
-	"github.com/jfrog/jfrog-client-go/utils/io/content"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
+	"github.com/3choboomer/jfrog-client-go/http/jfroghttpclient"
+	clientutils "github.com/3choboomer/jfrog-client-go/utils"
+	"github.com/3choboomer/jfrog-client-go/utils/errorutils"
+	clientio "github.com/3choboomer/jfrog-client-go/utils/io"
+	"github.com/3choboomer/jfrog-client-go/utils/io/content"
+	"github.com/3choboomer/jfrog-client-go/utils/io/fileutils"
+	"github.com/3choboomer/jfrog-client-go/utils/log"
 )
 
 type DownloadService struct {

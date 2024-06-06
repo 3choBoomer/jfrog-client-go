@@ -3,11 +3,11 @@ package services
 import (
 	"net/http"
 
-	"github.com/jfrog/jfrog-client-go/auth"
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
-	"github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
+	"github.com/3choboomer/jfrog-client-go/auth"
+	"github.com/3choboomer/jfrog-client-go/http/jfroghttpclient"
+	"github.com/3choboomer/jfrog-client-go/utils"
+	"github.com/3choboomer/jfrog-client-go/utils/errorutils"
+	"github.com/3choboomer/jfrog-client-go/utils/log"
 )
 
 type PingService struct {

@@ -1,10 +1,10 @@
 package tests
 
 import (
-	clientutils "github.com/jfrog/jfrog-client-go/utils"
+	clientutils "github.com/3choboomer/jfrog-client-go/utils"
 	"testing"
 
-	"github.com/jfrog/jfrog-client-go/xray/services/utils"
+	"github.com/3choboomer/jfrog-client-go/xray/services/utils"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"github.com/jfrog/jfrog-client-go/artifactory/services/utils"
+	"github.com/3choboomer/jfrog-client-go/artifactory/services/utils"
 )
 
 // REST body for create and update a release bundle
