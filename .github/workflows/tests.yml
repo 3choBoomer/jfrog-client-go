@@ -32,7 +32,7 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
-          go-version: 1.20.x
+          go-version: 1.22.2
           cache: false
 
       - name: Go Cache
@@ -58,7 +58,7 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
-          go-version: 1.20.x
+          go-version: 1.22.2
           cache: false
 
       - name: Checkout code
@@ -103,7 +103,7 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
-          go-version: 1.20.x
+          go-version: 1.22.2
           cache: false
 
       - name: Go Cache
@@ -129,7 +129,7 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
-          go-version: 1.20.x
+          go-version: 1.22.2
           cache: false
 
       - name: Go Cache
@@ -141,7 +141,7 @@ jobs:
 
       - name: pipelines tests
         run: go test -v github.com/jfrog/jfrog-client-go/tests --timeout 0 --test.pipelines --rt.url=${{ secrets.PLATFORM_URL }}/artifactory --pipe.url=${{ secrets.PLATFORM_URL }}/pipelines --rt.user=${{ secrets.PLATFORM_USER }} --rt.password=${{ secrets.PLATFORM_PASSWORD }} --pipe.accessToken=${{ secrets.PLATFORM_ADMIN_TOKEN }} --pipe.vcsToken=${{ secrets.CLI_PIPE_VCS_TOKEN }} --pipe.vcsRepo=${{ secrets.CLI_PIPE_VCS_REPO }} --pipe.vcsBranch=${{ secrets.CLI_PIPE_VCS_BRANCH }} --ci.runId=${{ runner.os }}_pipe
-
+        
   JFrog-Client-Go-Repositories-Tests:
     needs: Pretest
     name: repositories ubuntu-latest
@@ -150,13 +150,13 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
-          go-version: 1.20.x
+          go-version: 1.22.2
           cache: false
 
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.head.sha }}
+            ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Go Cache
         uses: actions/cache@v4
