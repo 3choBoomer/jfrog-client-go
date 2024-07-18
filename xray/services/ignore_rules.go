@@ -264,16 +264,17 @@ type IgnoreRuleResponse struct {
 type IgnoreRule struct {
 	Notes     string        `json:"notes"`
 	ExpiresAt *time.Time    `json:"expires_at,omitempty"`
-	Filters   IgnoreFilters `json:"ignore_filters"`
+	Filters   IgnoreFilters `json:"ignore_filters,omitempty"`
 }
 
 // IgnoreRuleDetail struct representing an Ignore Rule as returned by the API
 type IgnoreRuleDetail struct {
 	IgnoreRule
-	ID        string    `json:"id"`
-	Author    string    `json:"author"`
-	Created   time.Time `json:"created"`
-	IsExpired bool      `json:"is_expired"`
+	ID             string    `json:"id"`
+	Author         string    `json:"author"`
+	Created        time.Time `json:"created"`
+	IsExpired      bool      `json:"is_expired"`
+	IgnoreRuleType string    `json:"ignore_rule_type,omitempty"`
 }
 
 // IgnoreFilters struct representing the "ignore_filters" object

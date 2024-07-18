@@ -222,3 +222,28 @@ func (sm *XrayServicesManager) GetAllIgnoreRules(params *services.IgnoreRulesGet
 	ignoreRuleService.XrayDetails = sm.config.GetServiceDetails()
 	return ignoreRuleService.GetAll(params)
 }
+
+func (sm *XrayServicesManager) GetIgnoredViolations(filters *services.ListIgnoredViolationsFilters) (ignored *services.ListIgnoredViolationsResponse, err error) {
+	violationsService := services.NewViolationsService(sm.client)
+	violationsService.XrayDetails = sm.config.GetServiceDetails()
+	return violationsService.GetIgnoredViolations(filters)
+
+}
+
+func (sm *XrayServicesManager) GetIgnoredViolationsByWatchName(watchName string) (ignored *services.IgnoredViolationsResponse, err error) {
+	violationsService := services.NewViolationsService(sm.client)
+	violationsService.XrayDetails = sm.config.GetServiceDetails()
+	return violationsService.GetIgnoredViolationsByWatchName(watchName)
+}
+
+func (sm *XrayServicesManager) GetViolations(filters *services.ViolationsGetAllParams) (response *services.ViolationsResponse, err error) {
+	violationsService := services.NewViolationsService(sm.client)
+	violationsService.XrayDetails = sm.config.GetServiceDetails()
+	return violationsService.Get(filters)
+}
+
+func (sm *XrayServicesManager) RestoreViolations(violationIds ...string) error {
+	violationsService := services.NewViolationsService(sm.client)
+	violationsService.XrayDetails = sm.config.GetServiceDetails()
+	return violationsService.Restore(violationIds...)
+}

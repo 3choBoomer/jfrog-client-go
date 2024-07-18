@@ -35,7 +35,7 @@ func CheckResponseStatus(resp *http.Response, expectedStatusCodes ...int) error 
 	return CheckError(GenerateResponseError(resp.Status, string(errorBody)))
 }
 
-// Check expected status codes and return error with body if needed
+// CheckResponseStatusWithBody Check expected status codes and return error with body if needed
 // We use body variable that was saved outside the resp.body object,
 // Instead of resp.Body because resp.body disappears after resp.body.Close()
 func CheckResponseStatusWithBody(resp *http.Response, body []byte, expectedStatusCodes ...int) error {
