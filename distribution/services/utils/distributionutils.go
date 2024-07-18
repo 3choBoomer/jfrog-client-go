@@ -1,8 +1,8 @@
 package utils
 
 import (
-	rtUtils "github.com/jfrog/jfrog-client-go/artifactory/services/utils"
-	"github.com/jfrog/jfrog-client-go/utils/distribution"
+	rtUtils "github.com/3choboomer/jfrog-client-go/artifactory/services/utils"
+	"github.com/3choboomer/jfrog-client-go/utils/distribution"
 )
 
 type ReleaseNotesSyntax string

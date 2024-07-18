@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/jfrog/jfrog-client-go/http/httpclient"
+	"github.com/3choboomer/jfrog-client-go/http/httpclient"
 )
 
 func JfrogClientBuilder() *jfrogHttpClientBuilder {

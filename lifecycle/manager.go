@@ -1,11 +1,11 @@
 package lifecycle
 
 import (
-	"github.com/jfrog/jfrog-client-go/artifactory/services/utils"
-	"github.com/jfrog/jfrog-client-go/config"
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
-	lifecycle "github.com/jfrog/jfrog-client-go/lifecycle/services"
-	"github.com/jfrog/jfrog-client-go/utils/distribution"
+	"github.com/3choboomer/jfrog-client-go/artifactory/services/utils"
+	"github.com/3choboomer/jfrog-client-go/config"
+	"github.com/3choboomer/jfrog-client-go/http/jfroghttpclient"
+	lifecycle "github.com/3choboomer/jfrog-client-go/lifecycle/services"
+	"github.com/3choboomer/jfrog-client-go/utils/distribution"
 )
 
 type LifecycleServicesManager struct {

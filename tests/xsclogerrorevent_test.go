@@ -2,8 +2,8 @@ package tests
 
 import (
 	"encoding/json"
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
-	"github.com/jfrog/jfrog-client-go/xsc/services"
+	"github.com/3choboomer/jfrog-client-go/http/jfroghttpclient"
+	"github.com/3choboomer/jfrog-client-go/xsc/services"
 	"github.com/stretchr/testify/assert"
 	"net/http"
 	"net/http/httptest"

@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/jfrog/jfrog-client-go/utils"
+	"github.com/3choboomer/jfrog-client-go/utils"
 )
 
 type HttpClientDetails struct {

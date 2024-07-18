@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/jfrog/jfrog-client-go/auth/cert"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
+	"github.com/3choboomer/jfrog-client-go/auth/cert"
+	"github.com/3choboomer/jfrog-client-go/utils/errorutils"
 )
 
 var DefaultDialTimeout = 30 * time.Second

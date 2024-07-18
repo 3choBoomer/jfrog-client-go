@@ -10,10 +10,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/3choboomer/jfrog-client-go/utils/log"
+	clienttests "github.com/3choboomer/jfrog-client-go/utils/tests"
+	"github.com/3choboomer/jfrog-client-go/xray/services"
 	"github.com/buger/jsonparser"
-	"github.com/jfrog/jfrog-client-go/utils/log"
-	clienttests "github.com/jfrog/jfrog-client-go/utils/tests"
-	"github.com/jfrog/jfrog-client-go/xray/services"
 	"github.com/stretchr/testify/assert"
 )
 

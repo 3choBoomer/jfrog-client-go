@@ -1,10 +1,10 @@
 package tests
 
 import (
-	"github.com/jfrog/jfrog-client-go/artifactory"
-	artifactoryAuth "github.com/jfrog/jfrog-client-go/artifactory/auth"
-	"github.com/jfrog/jfrog-client-go/artifactory/services"
-	"github.com/jfrog/jfrog-client-go/config"
+	"github.com/3choboomer/jfrog-client-go/artifactory"
+	artifactoryAuth "github.com/3choboomer/jfrog-client-go/artifactory/auth"
+	"github.com/3choboomer/jfrog-client-go/artifactory/services"
+	"github.com/3choboomer/jfrog-client-go/config"
 	"github.com/stretchr/testify/assert"
 	"net/http"
 	"net/http/httptest"

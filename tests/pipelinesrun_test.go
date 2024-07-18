@@ -2,9 +2,9 @@ package tests
 
 import (
 	"fmt"
-	pipelinesServices "github.com/jfrog/jfrog-client-go/pipelines/services"
-	"github.com/jfrog/jfrog-client-go/utils/io/httputils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
+	pipelinesServices "github.com/3choboomer/jfrog-client-go/pipelines/services"
+	"github.com/3choboomer/jfrog-client-go/utils/io/httputils"
+	"github.com/3choboomer/jfrog-client-go/utils/log"
 	"github.com/stretchr/testify/assert"
 	"strings"
 	"testing"

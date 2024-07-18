@@ -2,9 +2,9 @@ package lifecycle
 
 import (
 	"encoding/json"
-	artifactoryAuth "github.com/jfrog/jfrog-client-go/artifactory/auth"
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
-	lifecycle "github.com/jfrog/jfrog-client-go/lifecycle/services"
+	artifactoryAuth "github.com/3choboomer/jfrog-client-go/artifactory/auth"
+	"github.com/3choboomer/jfrog-client-go/http/jfroghttpclient"
+	lifecycle "github.com/3choboomer/jfrog-client-go/lifecycle/services"
 	"github.com/stretchr/testify/assert"
 	"net/http"
 	"net/http/httptest"

@@ -1,8 +1,8 @@
 package tests
 
 import (
-	"github.com/jfrog/jfrog-client-go/artifactory"
-	"github.com/jfrog/jfrog-client-go/config"
+	"github.com/3choboomer/jfrog-client-go/artifactory"
+	"github.com/3choboomer/jfrog-client-go/config"
 	"github.com/stretchr/testify/assert"
 	"net/http"
 	"net/url"

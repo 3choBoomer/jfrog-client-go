@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
+	"github.com/3choboomer/jfrog-client-go/utils/io/fileutils"
+	"github.com/3choboomer/jfrog-client-go/utils/log"
 )
 
 func TestExtractRepo(t *testing.T) {

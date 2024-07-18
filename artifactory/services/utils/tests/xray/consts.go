@@ -1,6 +1,6 @@
 package xray
 
-import xrayServices "github.com/jfrog/jfrog-client-go/xray/services"
+import xrayServices "github.com/3choboomer/jfrog-client-go/xray/services"
 
 const FatalErrorXrayScanResponse = `
 {

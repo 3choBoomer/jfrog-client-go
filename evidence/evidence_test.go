@@ -2,9 +2,9 @@ package evidence
 
 import (
 	"encoding/json"
-	artifactoryAuth "github.com/jfrog/jfrog-client-go/artifactory/auth"
-	evidence "github.com/jfrog/jfrog-client-go/evidence/services"
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
+	artifactoryAuth "github.com/3choboomer/jfrog-client-go/artifactory/auth"
+	evidence "github.com/3choboomer/jfrog-client-go/evidence/services"
+	"github.com/3choboomer/jfrog-client-go/http/jfroghttpclient"
 	"github.com/stretchr/testify/assert"
 	"net/http"
 	"net/http/httptest"

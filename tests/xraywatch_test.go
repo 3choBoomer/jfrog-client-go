@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	artifactoryServices "github.com/jfrog/jfrog-client-go/artifactory/services"
-	clientUtils "github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/xray/services/utils"
+	artifactoryServices "github.com/3choboomer/jfrog-client-go/artifactory/services"
+	clientUtils "github.com/3choboomer/jfrog-client-go/utils"
+	"github.com/3choboomer/jfrog-client-go/xray/services/utils"
 	"github.com/stretchr/testify/assert"
 )
 

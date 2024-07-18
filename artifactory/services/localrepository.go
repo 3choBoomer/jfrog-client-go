@@ -1,7 +1,7 @@
 package services
 
 import (
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
+	"github.com/3choboomer/jfrog-client-go/http/jfroghttpclient"
 )
 
 const LocalRepositoryRepoType = "local"

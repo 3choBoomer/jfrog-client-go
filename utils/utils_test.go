@@ -7,7 +7,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/jfrog/jfrog-client-go/utils/io"
+	"github.com/3choboomer/jfrog-client-go/utils/io"
 	"github.com/stretchr/testify/assert"
 )
 

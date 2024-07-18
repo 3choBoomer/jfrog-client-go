@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/jfrog/jfrog-client-go/auth"
-	"github.com/jfrog/jfrog-client-go/http/httpclient"
+	"github.com/3choboomer/jfrog-client-go/auth"
+	"github.com/3choboomer/jfrog-client-go/http/httpclient"
 )
 
 func NewConfigBuilder() *servicesConfigBuilder {

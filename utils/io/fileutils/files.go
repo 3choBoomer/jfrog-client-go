@@ -13,10 +13,10 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/3choboomer/jfrog-client-go/utils/errorutils"
 	"github.com/jfrog/build-info-go/entities"
 	biutils "github.com/jfrog/build-info-go/utils"
 	gofrog "github.com/jfrog/gofrog/io"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
 )
 
 const (

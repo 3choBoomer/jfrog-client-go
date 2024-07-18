@@ -5,14 +5,14 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/jfrog/jfrog-client-go/utils/tests"
+	"github.com/3choboomer/jfrog-client-go/utils/tests"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jfrog/jfrog-client-go/artifactory/services"
-	"github.com/jfrog/jfrog-client-go/artifactory/services/utils"
-	clientutils "github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
+	"github.com/3choboomer/jfrog-client-go/artifactory/services"
+	"github.com/3choboomer/jfrog-client-go/artifactory/services/utils"
+	clientutils "github.com/3choboomer/jfrog-client-go/utils"
+	"github.com/3choboomer/jfrog-client-go/utils/io/fileutils"
 )
 
 func TestArtifactoryDownload(t *testing.T) {
