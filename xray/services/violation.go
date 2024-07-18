@@ -202,7 +202,7 @@ func (vs *ViolationsService) GetIgnoredViolations(filters *ListIgnoredViolations
 
 func (vs *ViolationsService) setupHttpClient() httputils.HttpClientDetails {
 	httpClientsDetails := vs.XrayDetails.CreateHttpClientDetails()
-	artUtils.SetContentType("application/JSON", &httpClientsDetails.Headers)
+	artUtils.SetContentType("application/json", &httpClientsDetails.Headers)
 	return httpClientsDetails
 }
 
