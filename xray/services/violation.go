@@ -117,7 +117,7 @@ func (vs *ViolationsService) Restore(violationIds ...string) error {
 // Get retrieves the details about Xray Violations based on the filters provided
 // Corresponds to the POST /api/v1/violations endpoint
 func (vs *ViolationsService) Get(filters *ViolationsGetAllParams) (response *ViolationsResponse, err error) {
-	httpClientsDetails := vs.XrayDetails.CreateHttpClientDetails()
+	httpClientsDetails := vs.setupHttpClient()
 	reqBody, err := json.Marshal(filters)
 	if err != nil {
 		return nil, err
