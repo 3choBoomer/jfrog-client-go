@@ -287,8 +287,8 @@ type ListIgnoredViolationsFilters struct {
 	Cves            []string           `json:"cves,omitempty"`
 	Policies        []string           `json:"policies,omitempty"`
 	Watches         []string           `json:"watches,omitempty"`
-	DockerLayers    []string           `json:"docker_layers,omitempty"`
-	ReleaseBundles  NameVersion        `json:"release_bundles,omitempty"`
+	DockerLayers    []string           `json:"docker-layers,omitempty"`
+	ReleaseBundles  NameVersion        `json:"release-bundles,omitempty"`
 	Builds          NameVersion        `json:"builds,omitempty"`
 	Components      NameVersion        `json:"components,omitempty"`
 	Artifacts       ArtifactDescriptor `json:"artifacts,omitempty"`
