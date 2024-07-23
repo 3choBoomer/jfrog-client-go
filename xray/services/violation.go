@@ -282,16 +282,19 @@ type IgnoredViolationsResponse struct {
 }
 
 type ListIgnoredViolationsFilters struct {
-	Vulnerabilities []string           `json:"vulnerabilities,omitempty"`
-	Licenses        []string           `json:"licenses,omitempty"`
-	Cves            []string           `json:"cves,omitempty"`
-	Policies        []string           `json:"policies,omitempty"`
-	Watches         []string           `json:"watches,omitempty"`
-	DockerLayers    []string           `json:"docker-layers,omitempty"`
-	ReleaseBundles  NameVersion        `json:"release-bundles,omitempty"`
-	Builds          NameVersion        `json:"builds,omitempty"`
-	Components      NameVersion        `json:"components,omitempty"`
-	Artifacts       ArtifactDescriptor `json:"artifacts,omitempty"`
+	Vulnerabilities []string             `json:"vulnerabilities,omitempty"`
+	Licenses        []string             `json:"licenses,omitempty"`
+	Cves            []string             `json:"cves,omitempty"`
+	Policies        []string             `json:"policies,omitempty"`
+	Watches         []string             `json:"watches,omitempty"`
+	DockerLayers    []string             `json:"docker-layers,omitempty"`
+	ReleaseBundles  []NameVersion        `json:"release-bundles,omitempty"`
+	Builds          []NameVersion        `json:"builds,omitempty"`
+	Components      []NameVersion        `json:"components,omitempty"`
+	Artifacts       []ArtifactDescriptor `json:"artifacts,omitempty"`
+	OrderBy         string               `json:"order_by,omitempty"`
+	Offset          int                  `json:"offset,omitempty"`
+	Limit           int                  `json:"limit,omitempty"`
 }
 
 type MatchedPolicy struct {
