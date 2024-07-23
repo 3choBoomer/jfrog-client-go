@@ -146,7 +146,7 @@ func (vs *ViolationsService) GetIgnoredViolationsByWatchName(watchName string) (
 	httpClientsDetails := vs.setupHttpClient()
 	url := fmt.Sprintf("%s%s%s",
 		clientUtils.AddTrailingSlashIfNeeded(vs.getViolationsURL()),
-		clientUtils.AddTrailingSlashIfNeeded(IgnoredSubPath),
+		IgnoredSubPath,
 		watchName)
 
 	resp, body, _, err := vs.client.SendGet(url, true, &httpClientsDetails)
@@ -176,7 +176,7 @@ func (vs *ViolationsService) GetIgnoredViolations(filters *ListIgnoredViolations
 	httpClientsDetails := vs.setupHttpClient()
 	url := fmt.Sprintf("%s%s",
 		clientUtils.AddTrailingSlashIfNeeded(vs.getViolationsURL()),
-		clientUtils.AddTrailingSlashIfNeeded(IgnoredSubPath))
+		IgnoredSubPath)
 
 	content, err := json.Marshal(filters)
 	if err != nil {
