@@ -174,9 +174,9 @@ func (vs *ViolationsService) GetIgnoredViolations(filters *ListIgnoredViolations
 		return nil, err
 	}
 	httpClientsDetails := vs.setupHttpClient()
-	url := fmt.Sprintf("%s%s",
+	url := fmt.Sprintf("%s%s%s",
 		clientUtils.AddTrailingSlashIfNeeded(vs.getViolationsURL()),
-		IgnoredSubPath)
+		IgnoredSubPath, "?limit=100")
 
 	content, err := json.Marshal(filters)
 	if err != nil {
@@ -292,9 +292,6 @@ type ListIgnoredViolationsFilters struct {
 	Builds          []NameVersion        `json:"builds,omitempty"`
 	Components      []NameVersion        `json:"components,omitempty"`
 	Artifacts       []ArtifactDescriptor `json:"artifacts,omitempty"`
-	OrderBy         string               `json:"order_by,omitempty"`
-	Offset          int                  `json:"offset,omitempty"`
-	Limit           int                  `json:"limit,omitempty"`
 }
 
 type MatchedPolicy struct {
